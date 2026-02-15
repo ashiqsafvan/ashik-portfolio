@@ -196,14 +196,21 @@ nav {
 }
 
 .about-image {
-    background-color: var(--secondary-color);
-    height: 400px;
-    border-radius: 8px;
+    /* height: 400px; Remove fixed height to show full image */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    /* Placeholder text color */
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    /* Prevent it from getting too huge */
+    object-fit: contain;
+    /* Ensure full image is visible */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Skills Section */
