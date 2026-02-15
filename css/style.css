@@ -144,6 +144,8 @@ header {
     height: 200px;
     /* Square for circle */
     object-fit: cover;
+    object-position: top center;
+    /* Focus on face/head */
     /* Crop to fill circle */
     border-radius: 50%;
     /* Make it round */
