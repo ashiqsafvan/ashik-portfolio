@@ -152,11 +152,7 @@ header {
     border: 4px solid rgba(255, 255, 255, 0.1);
 }
 
-mix-blend-mode: multiply;
-/* Cool effect on lavender bg if image has white bg, else normal */
-/* If image is normal photo: */
-mix-blend-mode: normal;
-}
+
 
 .hero-card-footer h2 {
     font-size: 1.5rem;
