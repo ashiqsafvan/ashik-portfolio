@@ -1,0 +1,24 @@
+# Portfolio Website for Ashik - Finance & Accounting Professional
+
+- [x] **Project Setup & Planning** <!-- id: 0 -->
+    - [x] Create implementation plan <!-- id: 1 -->
+    - [x] Define content structure and sections based on user input <!-- id: 2 -->
+    - [x] Select technology stack (HTML/CSS) <!-- id: 3 -->
+- [ ] **Design & Mockups** <!-- id: 4 -->
+    - [ ] Create initial design concepts (Minimal, Corporate, Neutral Tones) <!-- id: 5 -->
+    - [ ] Review design direction with user <!-- id: 6 -->
+- [ ] **Development** <!-- id: 7 -->
+    - [ ] Set up project structure (`index.html`, `style.css`, assets) <!-- id: 8 -->
+    - [ ] Implement global styles (Typography, Colors: Blues/Greys, Layout) <!-- id: 9 -->
+    - [ ] Build Header and Navigation <!-- id: 10 -->
+    - [ ] Build Hero / Professional Summary Section <!-- id: 11 -->
+    - [ ] Build About Section <!-- id: 12 -->
+    - [ ] Build Core Skills & Services Section <!-- id: 13 -->
+    - [ ] Build Experience / Selected Work Section <!-- id: 14 -->
+    - [ ] Build Contact Section <!-- id: 15 -->
+    - [ ] Make it mobile responsive <!-- id: 16 -->
+- [ ] **Content Integration** <!-- id: 17 -->
+    - [ ] Add user provided content (About, Experience, etc.) <!-- id: 18 -->
+- [ ] **Final Review & Deploy** <!-- id: 19 -->
+    - [ ] Final polish and animations <!-- id: 20 -->
+    - [ ] Deployment instructions <!-- id: 21 -->
