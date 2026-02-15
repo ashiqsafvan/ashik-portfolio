@@ -295,6 +295,7 @@ nav {
 .contact-info {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-lg);
 }
@@ -313,6 +314,7 @@ nav {
 
 .contact-item a {
     color: var(--accent-color);
+    white-space: nowrap;
 }
 
 /* Footer */
