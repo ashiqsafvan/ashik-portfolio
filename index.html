@@ -32,8 +32,8 @@
                 </button>
                 <ul class="nav-links">
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#experience">Resume</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li> <!-- Renamed from Resume -->
+                    <li><a href="#skills">Skills</a></li> <!-- Renamed from Projects -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -69,20 +69,23 @@
                     My goal is to build long-term client relationships based on trust, accuracy, and reliability.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#experience" class="btn btn-primary">Resume</a>
-                    <a href="#projects" class="btn btn-secondary">Projects</a>
+                    <a href="#experience" class="btn btn-primary">Experience</a> <!-- Renamed from Resume -->
+                    <a href="#skills" class="btn btn-secondary">Skills</a> <!-- Renamed from Projects -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Resume / Experience Section -->
+    <!-- About Section (Hidden target for nav) -->
+    <div id="about"></div>
+
+    <!-- Experience Section (Was Resume) -->
     <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title">Resume</h2>
+            <h2 class="section-title">Experience</h2> <!-- Renamed from Resume -->
 
             <div class="resume-group">
-                <h3 class="resume-subtitle">Experience</h3>
+                <!-- <h3 class="resume-subtitle">Work History</h3> -->
 
                 <!-- XGBS -->
                 <div class="resume-item">
@@ -173,8 +176,8 @@
         </div>
     </section>
 
-    <!-- Skills & Languages (As Projects Replacement or Sidebar) -->
-    <section id="projects" class="section">
+    <!-- Skills Section (Was Projects) -->
+    <section id="skills" class="section">
         <div class="container">
             <h2 class="section-title">Skills & Expertise</h2>
             <div class="skills-grid">
@@ -205,14 +208,13 @@
             <div class="contact-text">
                 <h1>Let's talk</h1>
                 <div class="social-links">
-                    <!-- Using text links for clean look as per design -->
                     <a href="mailto:ashiqsafvan111@gmail.com">ashiqsafvan111@gmail.com</a>
                     <a href="tel:+966507896647">+966 50 789 6647</a>
                     <a href="https://www.linkedin.com/in/ashiq-safvanp" target="_blank">LinkedIn</a>
                 </div>
             </div>
 
-            <!-- Contact Form Container (Visual only for now since we have no backend, but styled to match) -->
+            <!-- Contact Form Container -->
             <div class="contact-form-container">
                 <form action="mailto:ashiqsafvan111@gmail.com" method="post" enctype="text/plain">
                     <div class="form-group">
