@@ -3,8 +3,9 @@
     --bg-body: #111111;
     --text-main: #ffffff;
     --text-muted: #d4d4d4;
-    --accent-color: #BFAFF2;
-    --text-on-accent: #000000;
+    --accent-color: #3E1F47;
+    /* Premium Dark Purple */
+    --text-on-accent: #ffffff;
 
     /* Typography */
     --font-heading: 'Inter', sans-serif;
