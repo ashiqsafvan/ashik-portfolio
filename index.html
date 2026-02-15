@@ -22,133 +22,92 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-container">
+            <div class="logo">ASHIK.</div>
             <nav>
-                <div class="logo">ASHIK.</div>
                 <button class="mobile-menu-btn" aria-label="Toggle navigation">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </button>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Ashiq Safvan P</h1>
-                <p>Audit and Accounts Professional | Financial Analyst | Business Analyst | VAT Professional<br>
-                    Based in Jeddah, Makkah, Saudi Arabia</p>
-                <div class="hero-cta">
-                    <a href="#contact" class="btn">Get in Touch</a>
+    <!-- Hero Section (Split Layout) -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-layout">
+            <!-- Left: Hello Card (Lavender) -->
+            <div class="hero-card">
+                <div class="hero-card-content">
+                    <h1>Hello</h1>
+                    <div class="hero-profile">
+                        <img src="assets/images/ashik-profile.jpg" alt="Ashiq Safvan P" class="profile-photo">
+                    </div>
+                </div>
+                <div class="hero-card-footer">
+                    <h2>Ashiq Safvan P</h2>
+                    <p>Finance & Accounting Professional</p>
+                </div>
+            </div>
+
+            <!-- Right: Intro Text (Dark) -->
+            <div class="hero-intro">
+                <p>
+                    I'm a Finance and Accounting professional based in Jeddah, KSA. Specializing in VAT compliance,
+                    audit support, and business advisory, I help companies streamline their financial operations and
+                    Stay
+                    compliant with regional tax regulations.
+                </p>
+                <p>
+                    My goal is to build long-term client relationships based on trust, accuracy, and reliability.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn btn-primary">Resume</a>
+                    <a href="#projects" class="btn btn-secondary">Projects</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about">
+    <!-- Resume / Experience Section -->
+    <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <!-- User Image -->
-                    <img src="assets/images/ashik-profile.jpg" alt="Ashik Safvan P" class="profile-photo">
-                </div>
-                <div class="about-text">
-                    <p>
-                        As a finance and accounting professional specializing in VAT compliance, audit support, and
-                        business advisory, I help companies streamline their financial operations and stay compliant
-                        with regional tax regulations. My goal is to build long-term client relationships based on
-                        trust, accuracy, and reliability.
-                    </p>
-                    <p>
-                        With hands-on experience in GCC VAT filing, financial reporting, and audit coordination, I
-                        provide end-to-end support — from maintaining books of accounts to ensuring timely VAT
-                        submissions and audit readiness. I’m passionate about helping businesses stay organized,
-                        compliant, and financially strong.
-                    </p>
-                    <p>
-                        I’m currently focused on growing a client base for VAT and accounting services by delivering
-                        personalized solutions that add real value. Each engagement is handled with professionalism,
-                        confidentiality, and attention to detail.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <h2 class="section-title">Resume</h2>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills & Credentials</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Top Skills</h3>
-                    <ul>
-                        <li>SAP ERP</li>
-                        <li>Management Accounting</li>
-                        <li>Economics</li>
-                        <li>Financial Reporting</li>
-                        <li>Auditing & Compliance</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li><strong>English:</strong> Full Professional</li>
-                        <li><strong>Arabic:</strong> Professional Working</li>
-                        <li><strong>Hindi:</strong> Professional Working</li>
-                        <li><strong>Malayalam:</strong> Native/Bilingual</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Certifications</h3>
-                    <ul style="font-size: 0.9rem;">
-                        <li>Excel Fundamentals – Formulas for Finance</li>
-                        <li>Business Analyst & Project Manager Collaboration</li>
-                        <li>Business Analysis Foundations</li>
-                        <li>International Business Foundations</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="resume-group">
+                <h3 class="resume-subtitle">Experience</h3>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section experience">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
                 <!-- XGBS -->
-                <div class="timeline-item">
-                    <div class="timeline-date">June 2025 – Present</div>
-                    <div class="timeline-content">
-                        <h3>VAT Consultant</h3>
-                        <h4>XGBS – Global Business Solutions (Jeddah, KSA)</h4>
+                <div class="resume-item">
+                    <div class="resume-date">June 2025 – Present</div>
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h4>VAT Consultant</h4>
+                            <h5>XGBS – Global Business Solutions</h5>
+                            <span class="location">Jeddah, KSA</span>
+                        </div>
                         <p>Providing specialized VAT compliance and business advisory services.</p>
                     </div>
                 </div>
 
                 <!-- Mantle Solutions -->
-                <div class="timeline-item">
-                    <div class="timeline-date">September 2024 – Present</div>
-                    <div class="timeline-content">
-                        <h3>Accounts Payable Analyst</h3>
-                        <h4>Mantle Solutions Pvt Ltd (Kochi, India)</h4>
+                <div class="resume-item">
+                    <div class="resume-date">Sept 2024 – Present</div>
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h4>Accounts Payable Analyst</h4>
+                            <h5>Mantle Solutions Pvt Ltd</h5>
+                            <span class="location">Kochi, India</span>
+                        </div>
                         <p>
-                            • Verified documents and posted using SAP and Excel for accurate account reconciliation and
-                            payment allocations.<br>
+                            • Verified documents and posted using SAP and Excel for accurate account reconciliation.<br>
                             • Cleared IR GR discrepancies to ensure the accuracy of accounts.<br>
                             • Developed strong skills in document verification and account reconciliation.
                         </p>
@@ -156,93 +115,120 @@
                 </div>
 
                 <!-- Taxpert GCC -->
-                <div class="timeline-item">
-                    <div class="timeline-date">August 2024 – November 2024</div>
-                    <div class="timeline-content">
-                        <h3>VAT Analyst</h3>
-                        <h4>Taxpert GCC</h4>
+                <div class="resume-item">
+                    <div class="resume-date">Aug 2024 – Nov 2024</div>
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h4>VAT Analyst</h4>
+                            <h5>Taxpert GCC</h5>
+                        </div>
                         <p>
                             • Audited financial statements and prepared audit reports.<br>
-                            • Managed Oman VAT filing and preparation using Tally, Zoho, and Excel.<br>
-                            • Led auditing work from mapping to final report, ensuring accuracy and compliance.
+                            • Managed Oman VAT filing using Tally, Zoho, and Excel.<br>
+                            • Led auditing work from mapping to final report.
                         </p>
                     </div>
                 </div>
 
-                <!-- Skanda Plastic Industries -->
-                <div class="timeline-item">
-                    <div class="timeline-date">September 2023 – October 2023</div>
-                    <div class="timeline-content">
-                        <h3>Summer Intern</h3>
-                        <h4>Skanda Plastic Industries (Kasaragod, Kerala)</h4>
+                <!-- Skanda -->
+                <div class="resume-item">
+                    <div class="resume-date">Sept 2023 – Oct 2023</div>
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h4>Summer Intern</h4>
+                            <h5>Skanda Plastic Industries</h5>
+                            <span class="location">Kasaragod, Kerala</span>
+                        </div>
                         <p>Gained practical exposure to manufacturing accounting processes and supported day-to-day
                             financial operations.</p>
                     </div>
                 </div>
             </div>
+
+            <!-- Education -->
+            <div class="resume-group">
+                <h3 class="resume-subtitle">Education</h3>
+
+                <div class="resume-item">
+                    <div class="resume-date">2022 – 2024</div>
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h4>Master's Degree, Business/Commerce</h4>
+                            <h5>Central University of Tamil Nadu, India</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-item">
+                    <div class="resume-date">2018 – 2021</div>
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <h4>B. Com, Co-operation</h4>
+                            <h5>Eranad Knowledge City College</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section">
+    <!-- Skills & Languages (As Projects Replacement or Sidebar) -->
+    <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">October 2022 – May 2024</div>
-                    <div class="timeline-content">
-                        <h3>Master's Degree, Business/Commerce</h3>
-                        <h4>Central University of Tamil Nadu, India</h4>
-                    </div>
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Skill Cards using same Lavender style -->
+                <div class="resume-card">
+                    <h4>Core Skills</h4>
+                    <p>SAP ERP, Management Accounting, Economics, Financial Reporting, Auditing & Compliance.</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">June 2018 – January 2021</div>
-                    <div class="timeline-content">
-                        <h3>B. Com, Co-operation</h3>
-                        <h4>Eranad Knowledge City College of Architecture</h4>
-                    </div>
+                <div class="resume-card">
+                    <h4>Languages</h4>
+                    <p>English (Full Pro), Arabic (Pro Working), Hindi (Pro Working), Malayalam (Native).</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2015 – 2018</div>
-                    <div class="timeline-content">
-                        <h3>HSE, Commerce</h3>
-                        <h4>GHSS Pandikkad</h4>
-                    </div>
+                <div class="resume-card">
+                    <h4>Certifications</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>• Excel Fundamentals – Formulas for Finance</li>
+                        <li>• Business Analyst & Project Manager Collaboration</li>
+                        <li>• International Business Foundations</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-container">
-                <p
-                    style="margin-bottom: 2rem; color: var(--text-muted); font-size: 1.1rem; max-width: 700px; margin-left: auto; margin-right: auto;">
-                    Open to accounting, audit support, and financial reporting roles where accuracy, compliance, and
-                    process discipline are valued.
-                </p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span>Email</span>
-                        <a href="mailto:ashiqsafvan111@gmail.com">ashiqsafvan111@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <span>Phone</span>
-                        <a href="tel:+966507896647">+966 50 789 6647</a>
-                    </div>
-                    <div class="contact-item">
-                        <span>LinkedIn</span>
-                        <a href="https://www.linkedin.com/in/ashiq-safvanp"
-                            target="_blank">linkedin.com/in/ashiq-safvanp</a>
-                    </div>
-                    <div class="contact-item">
-                        <span>Location</span>
-                        <span>Jeddah, Makkah, KSA</span>
-                    </div>
+    <!-- Contact Section (Split Layout) -->
+    <section id="contact" class="section contact-section">
+        <div class="container contact-layout">
+            <div class="contact-text">
+                <h1>Let's talk</h1>
+                <div class="social-links">
+                    <!-- Using text links for clean look as per design -->
+                    <a href="mailto:ashiqsafvan111@gmail.com">ashiqsafvan111@gmail.com</a>
+                    <a href="tel:+966507896647">+966 50 789 6647</a>
+                    <a href="https://www.linkedin.com/in/ashiq-safvanp" target="_blank">LinkedIn</a>
                 </div>
-                <!-- <a href="mailto:ashiqsafvan111@gmail.com" class="btn">Send Me an Email</a> -->
+            </div>
+
+            <!-- Contact Form Container (Visual only for now since we have no backend, but styled to match) -->
+            <div class="contact-form-container">
+                <form action="mailto:ashiqsafvan111@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">First Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
             </div>
         </div>
     </section>
@@ -250,7 +236,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Ashiq Safvan P. All Rights Reserved.</p>
+            <p>&copy; 2035 by Ashiq Safvan P. Powered and secured by... me.</p>
         </div>
     </footer>
 

@@ -8,7 +8,7 @@
     - [x] Create initial design concepts (Minimal, Corporate, Neutral Tones) <!-- id: 5 -->
     - [x] Review design direction with user <!-- id: 6 -->
 - [ ] **Development** <!-- id: 7 -->
-    - [x] Set up project structure (`index.html`, `style.css`, assets) <!-- id: 8 -->
+    - [x] Set up project structure ([index.html](file:///C:/Users/acer/.gemini/antigravity/brain/6d251f82-e06d-4560-9064-d599d5a45edf/index.html), [style.css](file:///C:/Users/acer/.gemini/antigravity/brain/6d251f82-e06d-4560-9064-d599d5a45edf/css/style.css), assets) <!-- id: 8 -->
     - [x] Implement global styles (Typography, Colors: Blues/Greys, Layout) <!-- id: 9 -->
     - [x] Build Header and Navigation <!-- id: 10 -->
     - [x] Build Hero / Professional Summary Section <!-- id: 11 -->
@@ -30,24 +30,6 @@
 - [x] **Vercel Deployment** <!-- id: 27 -->
     - [x] Add Vercel instructions to Walkthrough <!-- id: 28 -->
     - [x] Guide user to deploy via Vercel Dashboard <!-- id: 29 -->
-- [x] **Content Updates** <!-- id: 30 -->
-    - [x] Update Taxpert & Skanda experience details <!-- id: 31 -->
-    - [x] Add Education section <!-- id: 32 -->
-- [x] **Final Content Refinement** <!-- id: 33 -->
-    - [x] Update Summary & Hero info <!-- id: 34 -->
-    - [x] Update Experience (XGBS, Mantle) <!-- id: 35 -->
-    - [x] Add Languages & Certifications <!-- id: 36 -->
-    - [x] Update Contact details <!-- id: 37 -->
-- [x] **UI Fixes** <!-- id: 38 -->
-    - [x] Fix profile image path (extension issue) <!-- id: 39 -->
-    - [x] Prevent mobile number wrapping <!-- id: 40 -->
-- [x] **Image Display Fix** <!-- id: 41 -->
-    - [x] Adjust object-fit/position for profile photo <!-- id: 42 -->
-- [x] **Adjustments** <!-- id: 43 -->
-    - [x] Remove Download CV button <!-- id: 44 -->
-- [ ] **Major Redesign (Dark/Lavender Theme)** <!-- id: 45 -->
-    - [ ] Update Design System (Colors/Fonts) <!-- id: 46 -->
-    - [ ] Refactor Hero Section (Split Layout) <!-- id: 47 -->
-    - [ ] Style Experience & Education (Purple Cards) <!-- id: 48 -->
-    - [ ] Update Skills & Contact (Modern Look) <!-- id: 49 -->
-    - [ ] Verify Mobile Responsiveness <!-- id: 50 -->
+- [ ] **Content Updates** <!-- id: 30 -->
+    - [ ] Update Taxpert & Skanda experience details <!-- id: 31 -->
+    - [ ] Add Education section <!-- id: 32 -->

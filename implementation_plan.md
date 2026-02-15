@@ -1,51 +1,52 @@
-# Implementation Plan - Ashik Portfolio
+# Portfolio Redesign Plan (Dark/Lavender Theme)
 
-## Goal Description
-Build a clean, professional, and scalable personal portfolio website for Ashik, a Finance & Accounting professional. The site will be built using lightweight **HTML and CSS**, ensuring fast load times and easy maintenance. The design will be **minimal and corporate**, utilizing neutral tones (blues and greys) to convey credibility.
+## Goal
+Transform the current corporate minimalist site into a bold, modern dark-themed portfolio based on user-provided screenshots ("John Douanias" Project Manager template).
 
-## User Review Required
-- **Design Style**: Confirm the specific shades of "Professional Blue" and "Grey" via the upcoming design mockups.
-- **Content**: User to provide text for "About", "Experience", and specific "Core Skills" lists.
+## Design System
 
-## Proposed Changes
+### Colors
+- **Background**: `#1c1c1c` (Dark Grey/Black)
+- **Text**: `#ffffff` (White)
+- **Accent**: `#a89eff` (Lavender/Light Purple) - Used for cards and highlights.
+- **Secondary Text**: `#cccccc` (Light Grey)
 
-### Tech Stack
-- **HTML5**: Semantic structure.
-- **CSS3**: Custom styles, Flexbox/Grid for layout, Variables for theming.
-- **JavaScript**: Minimal (for mobile menu toggling and smooth scrolling).
+### Typography
+- **Headings**: `Inter`, sans-serif. Huge sizes (e.g., Hero "Hello" ~100px+).
+- **Body**: `Inter`, sans-serif. Clean and readable.
 
-### File Structure
-- `index.html`: Single page layout containing all sections.
-- `css/style.css`: Main stylesheet.
-- `css/variables.css`: Theme colors and typography settings.
-- `js/script.js`: UI interactions.
-- `assets/images/`: Profile photo (user to provide) and minimal icons.
+## Layout Changes
 
-### Design System
-- **Colors**:
-    - Primary: Deep Navy Blue (`#1a2a3a`) - Trust, Professionalism.
-    - Secondary: Slate Grey (`#64748b`) - Balance.
-    - Background: Off-white / Light Grey (`#f8fafc`).
-    - Text: Dark Charcoal (`#1e293b`).
-- **Typography**:
-    - Headings: **Inter** or **Roboto** (Bold, Clean).
-    - Body: **Inter** or **Open Sans** (Readable, highly professional).
+### 1. Header
+- Simple top text links.
+- "Projects" renamed to "Experience".
 
-### Sections Breakdown
-1.  **Header**: Fixed navigation (Home, About, Skills, Experience, Contact).
-2.  **Hero**: Professional Summary. Name, Title, brief value proposition, "Download Resume" or "Contact Me" CTA.
-3.  **About**: detailed professional background.
-4.  **Core Skills & Services**: Grid layout of key competencies (e.g., Financial Analysis, Auditing, SAP, Excel).
-5.  **Experience / Selected Work**: Timeline or card-based layout highlighting key roles and projects.
-6.  **Contact**: Simple form or direct contact info (Email, LinkedIn).
-7.  **Footer**: Copyright and social links.
+### 2. Hero Section
+- **Split Layout**:
+    - **Left**: Huge "Hello" text + Profile Image (merged or overlapping style).
+    - **Right**: Intro text ("I'm a paragraph...") + Buttons ("Resume", "Experience").
+- Background: Lavender accent block behind "Hello"/Image might be needed, or just dark with lavender text. *Correction based on screenshot*: The "Hello" block itself is Lavender with Black text, and the image sits inside/below it.
 
-## Verification Plan
-### Automated Tests
-- None required for static HTML/CSS.
-- Will use **W3C Validator** to ensure valid HTML markup.
+### 3. Experience & Education (The "Resume" page style)
+- **Title**: Huge "Resume" or "Experience" text.
+- **Timeline/Cards**:
+    - Each job entry is a wide card with a Lavender background.
+    - Text inside cards is Black (for contrast on Lavender).
+    - Metadata (Date) above the card in White/Accent.
 
-### Manual Verification
-- **Responsiveness**: Check layout on Mobile (375px), Tablet (768px), and Desktop (1200px+).
-- **Cross-browser**: Verify consistency in Chrome and Edge.
-- **Accessibility**: Ensure contrast ratios meet WCAG AA standards.
+### 4. Skills & Languages
+- **Layout**: Grid of cards or simple lists with Lavender highlights.
+- **Style**: Consistent with Experience cards.
+
+### 5. Contact
+- **Title**: Huge "Let's talk".
+- **Form/Info**: Lavender background container for contact details.
+
+## Implementation Steps
+1.  **Update `css/variables.css`**: Define new color palette and font sizes.
+2.  **Refactor `index.html`**:
+    - Restructure Hero to Grid/Flex split.
+    - Update class names for new card styles.
+3.  **Rewrite `css/style.css`**:
+    - Implement the logic for the dark theme and specific component styles.
+4.  **Verify**: Check responsiveness and contrast.
