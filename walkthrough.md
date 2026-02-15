@@ -50,6 +50,14 @@ You can host this site for free using **GitHub Pages** or **Netlify**.
 2.  Go to **Settings > Pages**.
 3.  Select the `main` branch and click **Save**.
 
+**Option C: Vercel (Fastest & Best Performance)**
+1.  Go to [Vercel.com](https://vercel.com) and sign up/login.
+2.  Click **"Add New..."** > **"Project"**.
+3.  Select **"Continue with GitHub"**.
+4.  Find your `ashik-portfolio` repository and click **"Import"**.
+5.  Click **"Deploy"** (Leave all settings default).
+6.  Wait ~30 seconds, and your site will be live!
+
 ## Future Considerations
 - **Blog**: If you want to write articles later, we can migrate to a static site generator like Jekyll or Hugo (or Next.js).
 - **SEO**: Basic meta tags are included, but you can add more specific keywords to `index.html`.

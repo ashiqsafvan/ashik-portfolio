@@ -22,8 +22,19 @@
 - [x] **Final Review & Deploy** <!-- id: 19 -->
     - [x] Final polish and animations <!-- id: 20 -->
     - [x] Deployment instructions <!-- id: 21 -->
-- [ ] **GitHub Deployment** <!-- id: 22 -->
-    - [ ] Initialize Git repository <!-- id: 23 -->
-    - [ ] Create .gitignore <!-- id: 24 -->
-    - [ ] Commit files <!-- id: 25 -->
-    - [ ] Push to GitHub <!-- id: 26 -->
+- [x] **GitHub Deployment** <!-- id: 22 -->
+    - [x] Initialize Git repository <!-- id: 23 -->
+    - [x] Create .gitignore <!-- id: 24 -->
+    - [x] Commit files <!-- id: 25 -->
+    - [x] Push to GitHub <!-- id: 26 -->
+- [x] **Vercel Deployment** <!-- id: 27 -->
+    - [x] Add Vercel instructions to Walkthrough <!-- id: 28 -->
+    - [x] Guide user to deploy via Vercel Dashboard <!-- id: 29 -->
+- [x] **Content Updates** <!-- id: 30 -->
+    - [x] Update Taxpert & Skanda experience details <!-- id: 31 -->
+    - [x] Add Education section <!-- id: 32 -->
+- [ ] **Final Content Refinement** <!-- id: 33 -->
+    - [ ] Update Summary & Hero info <!-- id: 34 -->
+    - [ ] Update Experience (XGBS, Mantle) <!-- id: 35 -->
+    - [ ] Add Languages & Certifications <!-- id: 36 -->
+    - [ ] Update Contact details <!-- id: 37 -->
