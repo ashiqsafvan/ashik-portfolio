@@ -139,15 +139,23 @@ header {
 }
 
 .profile-photo {
-    width: 250px;
-    height: 300px;
-    object-fit: contain;
-    /* Show full image, no crop */
-    border-radius: 12px;
-    mix-blend-mode: multiply;
-    /* Cool effect on lavender bg if image has white bg, else normal */
-    /* If image is normal photo: */
-    mix-blend-mode: normal;
+    width: 200px;
+    /* Smaller size */
+    height: 200px;
+    /* Square for circle */
+    object-fit: cover;
+    /* Crop to fill circle */
+    border-radius: 50%;
+    /* Make it round */
+    margin: 0 auto;
+    display: block;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+mix-blend-mode: multiply;
+/* Cool effect on lavender bg if image has white bg, else normal */
+/* If image is normal photo: */
+mix-blend-mode: normal;
 }
 
 .hero-card-footer h2 {
